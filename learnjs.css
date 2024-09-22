@@ -1,0 +1,122 @@
+*{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* #box{
+    height:200px;
+    width: 100px;
+    background-color: pink;
+    border:solid black 2px;
+    margin:20px;
+}
+
+.para1{ */
+    /* height:200px;
+    width: 100px;
+    background-color: yellow;
+    border:solid black 2px;
+    margin:20px; */
+    /* color:red;
+}
+
+.newclass{
+    background-color: green;
+} */
+
+/* #content{
+    height:200px;
+    width: 100px;
+    background-color: pink;
+    border:solid black 2px;
+    margin:20px;
+} */
+
+
+#herosection{
+    height: 5vw;
+    background-color: rgb(12, 5, 41);
+    color: white;
+    display: flex;
+    justify-content: center;
+     line-height: 5rem;
+} 
+
+.choice{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50vw;
+    object-fit:contain;
+    overflow: hidden;
+}
+
+.choice:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+
+.choices{
+    height: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-right: 12vw; */
+    align-items: center;
+    padding-top: 5vw;
+   margin-bottom: 2vw;
+    
+}
+
+img{
+   height: 10vw;
+   width : 20vw;
+   margin-left: -5vw;
+    
+}
+
+.scoreboard{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+
+}
+
+h3{
+    width: 5vw;
+}
+
+.scoreboard2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+
+}
+
+h3{
+    margin-top: 1vw;
+    width: 10vw;
+}
+
+#winLose{
+    height:4vw;
+    width:25vw;
+    border-radius: 5px;
+    background-color:green;
+    margin-left: 37vw;
+    margin-top: 5vw;
+    text-align: center;
+    line-height: 3rem;
+}
+
+
+
